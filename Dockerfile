@@ -75,4 +75,4 @@ EXPOSE 8069 8071
 USER odoo
 
 # ENTRYPOINT ["/entrypoint.sh"]
-CMD ["odoo start"]
+CMD ["odoo -c /etc/odoo/odoo.conf "]
